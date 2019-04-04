@@ -28,7 +28,7 @@ cent = cent.sort_values(ascending=False)
 
 print(cent.head(10))
 
-#The grah is cored so that the number of nodes displayed is not too much for the computer to handle
+#The graph is cored so that the number of nodes displayed is not too much for the computer to handle
 g_cored = nx.k_core(g,3)
 print(g_cored.number_of_edges())
 print(g_cored.number_of_nodes())
